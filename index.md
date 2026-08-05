@@ -3,7 +3,7 @@
 Este reloj tiene dos modos:
 
 - **Modo F1**: muestra la hora y la cuenta regresiva a la próxima sesión de Fórmula 1 (clasificación, carrera, etc.).
-- **Modo Independiente**: muestra la hora y la cuenta regresiva al próximo partido del Rojo o de la Selección Argentina (el que esté más cerca).
+- **Modo Independiente**: muestra la hora y la cuenta regresiva al próximo partido de Boca o de la Selección Argentina (el que esté más cerca).
 
 ## Controlar el volumen
 
@@ -17,7 +17,10 @@ Hay dos formas:
 
 ### Opción 1: Desde la pantalla del reloj
 1. Mantené el dedo apoyado en la pantalla unos **3 segundos** (toque largo).
-2. Va a aparecer una pantalla que dice "MODO SUBIDA" con una dirección IP.
+2. Va a aparecer una pantalla que dice "MODO SUBIDA" con una dirección IP y un botón para cambiar de modo:
+
+   ![Pantalla de cambio de modo](img/cambiar_modo.png)
+
 3. Tocá el botón que dice **"Cambiar a F1"** o **"Cambiar a Indep."** (el texto cambia según el modo actual).
 4. El reloj reinicia solo y arranca en el modo nuevo.
 
@@ -31,7 +34,9 @@ Si entraste por error a esa pantalla y no querés cambiar nada, tocá brevemente
 
 ## Configurar el WiFi
 
-El reloj intenta conectarse solo a las redes que ya conoce. Si no logra conectarse a ninguna (por ejemplo, mudaste de casa o cambiaste la contraseña del router), automáticamente crea su propia red WiFi para que lo configures:
+El reloj intenta conectarse solo a las redes que ya conoce. Si no logra conectarse a ninguna (por ejemplo, mudaste de casa o cambiaste la contraseña del router), automáticamente crea su propia red WiFi para que lo configures, y muestra esta pantalla:
+
+![Pantalla de configuración WiFi](img/wifi_setup.png)
 
 1. En el celular, buscá la red WiFi llamada **"RelojClock"** y conectate con la contraseña **"12345678"**.
 2. Abrí el navegador y entrá a **192.168.4.1**.
