@@ -1,4 +1,4 @@
-# Manual de uso — Reloj Multiclock
+# Manual de uso — Reloj Multiclock Rojo-F1
 
 Este reloj tiene dos modos:
 
