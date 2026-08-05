@@ -1,13 +1,28 @@
-# Manual de uso — Reloj Multiclock Rojo-F1
+# Manual de uso — Reloj Multiclock
 
 Este reloj tiene dos modos:
 
 - **Modo F1**: muestra la hora y la cuenta regresiva a la próxima sesión de Fórmula 1 (clasificación, carrera, etc.).
 - **Modo Independiente**: muestra la hora y la cuenta regresiva al próximo partido de Boca o de la Selección Argentina (el que esté más cerca).
 
+## Configurar el WiFi
+
+El reloj intenta conectarse solo a las redes que ya conoce. Si no logra conectarse a ninguna (por ejemplo, mudaste de casa o cambiaste la contraseña del router), automáticamente crea su propia red WiFi para que lo configures, y muestra esta pantalla:
+
+![Pantalla de configuración WiFi](img/wifi_setup.png)
+
+1. En el celular, buscá la red WiFi llamada **"RelojClock"** y conectate con la contraseña **"12345678"**.
+2. Abrí el navegador y entrá a **192.168.4.1**.
+3. Vas a ver un formulario simple: cargá el nombre (SSID) y la contraseña de tu WiFi real.
+4. Guardá — el reloj reinicia solo y se conecta a la red nueva.
+
+Si no configurás nada en unos minutos y el reloj ya tenía la hora sincronizada alguna vez antes, sigue funcionando offline con su reloj interno (aunque sin los datos de partidos/carreras actualizados).
+
 ## Controlar el volumen
 
-Tocá la pantalla brevemente (un toque corto). Cada toque cicla entre:
+El reloj suena cada una hora en punto (por ejemplo 9:00, 10:00, 11:00...), solo en horario diurno (entre las 9:00 y las 22:00). Fuera de ese rango se mantiene en silencio automáticamente, sin que tengas que hacer nada.
+
+Si igual querés controlar el volumen de esos sonidos (por ejemplo bajarlo de noche temprano, o silenciarlo del todo), tocá la pantalla brevemente (un toque corto). Cada toque cicla entre:
 
 **Mute → Volumen bajo → Volumen normal → Mute...**
 
@@ -31,19 +46,6 @@ Si entraste por error a esa pantalla y no querés cambiar nada, tocá brevemente
 2. Conectate a la **misma red WiFi** que el reloj.
 3. Abrí el navegador y entrá a la dirección IP que muestra la pantalla del reloj.
 4. Tocá el botón **"Cambiar a F1"** / **"Cambiar a Independiente"**.
-
-## Configurar el WiFi
-
-El reloj intenta conectarse solo a las redes que ya conoce. Si no logra conectarse a ninguna (por ejemplo, mudaste de casa o cambiaste la contraseña del router), automáticamente crea su propia red WiFi para que lo configures, y muestra esta pantalla:
-
-![Pantalla de configuración WiFi](img/wifi_setup.png)
-
-1. En el celular, buscá la red WiFi llamada **"RelojClock"** y conectate con la contraseña **"12345678"**.
-2. Abrí el navegador y entrá a **192.168.4.1**.
-3. Vas a ver un formulario simple: cargá el nombre (SSID) y la contraseña de tu WiFi real.
-4. Guardá — el reloj reinicia solo y se conecta a la red nueva.
-
-Si no configurás nada en unos minutos y el reloj ya tenía la hora sincronizada alguna vez antes, sigue funcionando offline con su reloj interno (aunque sin los datos de partidos/carreras actualizados).
 
 ## Brillo de la pantalla
 
