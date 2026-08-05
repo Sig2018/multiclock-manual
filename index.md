@@ -3,7 +3,7 @@
 Este reloj tiene dos modos:
 
 - **Modo F1**: muestra la hora y la cuenta regresiva a la próxima sesión de Fórmula 1 (clasificación, carrera, etc.).
-- **Modo Independiente**: muestra la hora y la cuenta regresiva al próximo partido de Boca o de la Selección Argentina (el que esté más cerca).
+- **Modo Independiente**: muestra la hora y la cuenta regresiva al próximo partido del Rojo o de la Selección Argentina (el que esté más cerca).
 
 ## Controlar el volumen
 
