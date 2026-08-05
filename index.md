@@ -3,7 +3,7 @@
 Este reloj tiene dos modos:
 
 - **Modo F1**: muestra la hora y la cuenta regresiva a la próxima sesión de Fórmula 1 (clasificación, carrera, etc.).
-- **Modo Independiente**: muestra la hora y la cuenta regresiva al próximo partido de Boca o de la Selección Argentina (el que esté más cerca).
+- **Modo Independiente**: muestra la hora y la cuenta regresiva al próximo partido de Independiente o de la Selección Argentina (el que esté más cerca).
 
 ## Configurar el WiFi
 
@@ -53,7 +53,9 @@ Se ajusta solo, automáticamente, según la luz del ambiente. No requiere ningun
 
 ## Actualizaciones
 
-De vez en cuando, al encender el reloj (desenchufar y enchufar), puede aparecer un cartel de **"NUEVA VERSION"** con una cuenta regresiva de 10 segundos. Es normal: el reloj se está actualizando solo. No hace falta hacer nada, solo no desenchufarlo mientras se actualiza. Necesita WiFi para poder chequear y bajar la actualización.
+De vez en cuando, al encender el reloj (desenchufar y enchufar), puede aparecer un cartel de **"NUEVA VERSION"** con una cuenta regresiva de 10 segundos. Necesita WiFi para poder chequear y bajar la actualización.
+
+**Importante**: para que la actualización se descargue e instale, tenés que **tocar la pantalla** en esos 10 segundos. Si no la tocás, el reloj se lo salta y sigue funcionando normal con la versión que ya tenía (no se rompe nada, simplemente no queda actualizado hasta la próxima vez que encienda y vuelvas a tocar la pantalla a tiempo).
 
 ## Tips generales
 
