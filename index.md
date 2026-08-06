@@ -9,7 +9,7 @@ Este reloj tiene dos modos:
 
 ⚠️ **El reloj solo se conecta a redes de 2.4GHz**, no a redes de 5GHz. Si tu router muestra dos redes distintas (por ejemplo "MiRed" y "MiRed_5G"), asegurate de configurar la que **no dice 5G**. Si tu router usa el mismo nombre para las dos bandas ("red unificada"), probá igual — muchos routers dejan que el dispositivo elija la banda automáticamente.
 
-El reloj intenta conectarse solo a las redes que ya conoce. Si no logra conectarse a ninguna (por ejemplo, mudaste de casa o cambiaste la contraseña del router), automáticamente crea su propia red WiFi para que lo configures, y muestra esta pantalla:
+El reloj, cuando inicia, intenta conectarse automáticamente a las redes que ya conoce. Si no logra conectarse a ninguna (por ejemplo, mudaste de casa o cambiaste la contraseña del router), automáticamente crea su propia red WiFi para que lo configures, y muestra esta pantalla:
 
 ![Pantalla de configuración WiFi](img/wifi_setup.png)
 
