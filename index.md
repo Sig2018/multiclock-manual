@@ -11,8 +11,9 @@ El reloj intenta conectarse solo a las redes que ya conoce. Si no logra conectar
 
 ![Pantalla de configuración WiFi](img/wifi_setup.png)
 
-1. En el celular, buscá la red WiFi llamada **"RelojClock"** y conectate con la contraseña **"12345678"**.
-2. Abrí el navegador y entrá a **192.168.4.1**.
+1. **Lo más rápido**: escaneá el código QR de la pantalla con la cámara del celular — la mayoría de los teléfonos ofrecen conectarse solos a esa red, sin tipear nada. Muchos incluso abren el navegador automáticamente en el paso 3 apenas te conectás.
+   - Si preferís hacerlo a mano: buscá la red WiFi llamada **"RelojClock"** y conectate con la contraseña **"12345678"**.
+2. Abrí el navegador y entrá a **192.168.4.1** (si no se abrió solo).
 3. Vas a ver un formulario simple: cargá el nombre (SSID) y la contraseña de tu WiFi real.
 4. Guardá — el reloj reinicia solo y se conecta a la red nueva.
 
