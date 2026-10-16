@@ -42,10 +42,8 @@ Para desmarcarlo, toca el cuadro otra vez. Queda guardado aunque apagues el relo
 |---|---|
 | Hora en **rojo** | Falló la última descarga de conciertos o de clima. Revisa el WiFi; se arregla sola. |
 | `--:--` en lugar de la hora | Aún no hay hora válida: falta internet. |
-| **"Desconectado 12min"** en rojo en el clima | Sin internet desde hace esos minutos. Revisa el router; el reloj sigue reintentando. |
+| **"Desconectado 12min"** en rojo en el clima | El clima no se pudo actualizar en esos minutos. Revisa el WiFi; se arregla solo cuando vuelve la conexión. |
 | **"Sin WiFi"** y un QR | No encuentra tu red: ver el punto 1. |
-| **"LittleFS no disponible"** / **"Sube la carpeta data/"** | Faltan los archivos de fuentes e iconos en el reloj: hay que cargarlos desde el computador. |
-| Un concierto **no tiene el cuadro de volumen** abajo a la izquierda | El reloj no encontró la microSD: revisa que esté puesta y reinicia el reloj (desconecta y vuelve a conectar el USB). |
 | Hay cuadro de volumen pero **no suena** | Mira el icono: parlante rojo = MUTE. Si no es eso, ese concierto aún no tiene demo en la tarjeta. |
 | Un demo se corta o no se baja | Usa una tarjeta microSD de marca, de 32 GB o menos, en FAT32. |
 
