@@ -4,10 +4,10 @@ Reloj con la **hora**, el **clima** y los **próximos conciertos** en Chile, en 
 
 ## 1. Si no se conecta solo al WiFi
 
-Si no encuentra tu red, el reloj crea la suya y muestra un **código QR**:
+Si no encuentra tu red, la pantalla dice **"Sin WiFi"** y muestra un **código QR**; el reloj crea su propia red:
 
-1. **Escanea el QR** con el celular (o conéctate a la red **RelojClock**, clave **12345678**).
-2. Abre el navegador en **192.168.4.1** si no se abre solo.
+1. **Escanea el QR** con el celular, o conéctate a la red **RelojClock** con la clave **12345678** (ambos datos salen en la pantalla).
+2. La pantalla dice "Luego abre **192.168.4.1**": abre esa dirección en el navegador si no se abre sola.
 3. **Elige tu red** de la lista y escribe la clave. Guarda.
 
 ⚠️ Solo redes de **2,4 GHz** (no la "5G"). Mientras el portal está abierto, el reloj sigue probando las redes que conoce y se cierra solo si conecta.
@@ -38,14 +38,17 @@ Para desmarcarlo, toca el cuadro otra vez. Queda guardado aunque apagues el relo
 
 ## 4. Si algo falla
 
-| Problema | Qué hacer |
+| Lo que ves | Qué hacer |
 |---|---|
-| Hora en **rojo** | Falló una descarga: revisa el WiFi, se arregla sola. |
-| `--:--` | Aún no hay hora: falta internet. |
-| "Desconectado N min" | Sin internet; revisa el router. |
-| Aparece la red **RelojClock** y un QR | No encuentra tu WiFi: ver el punto 1. |
-| **No suena** | Mira el icono: parlante rojo = MUTE. Revisa que la microSD esté puesta y que el concierto tenga demo. |
-| "microSD no encontrada" tras cargar firmware | Desconecta y vuelve a conectar el cable USB. |
-| Un demo se corta o no baja | Usa una tarjeta microSD de marca, de 32 GB o menos, en FAT32. |
+| Hora en **rojo** | Falló la última descarga de conciertos o de clima. Revisa el WiFi; se arregla sola. |
+| `--:--` en lugar de la hora | Aún no hay hora válida: falta internet. |
+| **"Desconectado 12min"** en rojo en el clima | Sin internet desde hace esos minutos. Revisa el router; el reloj sigue reintentando. |
+| **"Cargando clima…"** o **"Cargando conciertos…"** | Aún no bajó los datos. Si no cambia en unos minutos, revisa el WiFi. |
+| **"Sin conciertos próximos"** | La lista no trae conciertos futuros por ahora. |
+| **"Sin WiFi"** y un QR | No encuentra tu red: ver el punto 1. |
+| **"LittleFS no disponible"** / **"Sube la carpeta data/"** | Faltan los archivos de fuentes e iconos en el reloj: hay que cargarlos desde el computador. |
+| Un concierto **no tiene el cuadro de volumen** abajo a la izquierda | El reloj no encontró la microSD: revisa que esté puesta y reinicia el reloj (desconecta y vuelve a conectar el USB). |
+| Hay cuadro de volumen pero **no suena** | Mira el icono: parlante rojo = MUTE. Si no es eso, ese concierto aún no tiene demo en la tarjeta. |
+| Un demo se corta o no se baja | Usa una tarjeta microSD de marca, de 32 GB o menos, en FAT32. |
 
 Al encender hay **6 s** para elegir tema **oscuro o claro** tocando la pantalla; si no tocas, sigue con el último.
